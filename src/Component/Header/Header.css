@@ -6,3 +6,44 @@
 
 
 /* =========== common css =========== */
+
+.mainNav {
+    padding: 34px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navMenu__main {
+    display: flex;
+    column-gap: 50px;
+}
+
+
+.logo {
+    object-fit: cover;
+}
+
+.navList {
+    font-size: 18px;
+    font-family: var(--inter);
+    font-weight: 500;
+    color: var(--primary_text_color);
+    transition: linear .4s;
+
+}
+
+.navList:hover {
+    color: var(--main_blue_color);
+    font-weight: 600;
+}
+
+.btn {
+    padding: 13px 24px;
+    border-radius: 10px;
+    background: var(--main_blue_color);
+    color: #fff;
+    font-size: 18px;
+    font-family: var(--inter);
+    font-weight: 500;
+}
