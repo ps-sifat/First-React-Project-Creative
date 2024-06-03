@@ -5,4 +5,48 @@
 }
 
 /* =============================== */
-.bannerMain {}
+.bannerPart {
+    background: var(--main_blue_color);
+    padding: 182px 0;
+}
+
+.bannerMain {
+    display: flex;
+    align-items: center;
+}
+
+.bannerLeft__heding {
+    color: #fff;
+    font-size: 65px;
+    font-weight: 700;
+    font-family: var(--inter);
+    line-height: 80px;
+}
+
+.bannerLeft__details {
+    font-size: 16px;
+    font-family: var(--inter);
+    font-weight: 400;
+    line-height: 27px;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.bannerLeft__btn {
+    font-size: 18px;
+    font-family: 500;
+    font-family: var(--inter);
+    color: var(--main_blue_color);
+    background: #fff;
+    border-radius: 10px;
+    padding: 13px 22px;
+    margin-top: 30px;
+    transition: linear .4s;
+    border: 2px solid transparent;
+}
+
+.bannerLeft__btn:hover {
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+}
