@@ -14,7 +14,7 @@ const Header = () => {
           <div className="navMenu">
             <ul className="navMenu__main">
               {navItem.map((item) => (
-                <li>
+                <li key={item.id}>
                   <a className="navList" href="#">
                     {item}
                   </a>
