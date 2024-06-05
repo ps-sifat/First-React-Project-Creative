@@ -12,6 +12,40 @@ import protfolio8 from "../../assets/protfolio__8.png";
 // icon 
 import { FaArrowRightLong } from "react-icons/fa6";
 const Protfolio = () => {
+  const allPortfolio = [
+    {
+      id:1,
+      img:protfolio1,
+    },
+    {
+      id:2,
+      img:protfolio2,
+    },
+    {
+      id:3,
+      img:protfolio3,
+    },
+    {
+      id:4,
+      img:protfolio4,
+    },
+    {
+      id:5,
+      img:protfolio5,
+    },
+    {
+      id:6,
+      img:protfolio6,
+    },
+    {
+      id:7,
+      img:protfolio7,
+    },
+    {
+      id:8,
+      img:protfolio8,
+    },
+  ]
   return (
     <>
       <div className="protfolioPart">
@@ -24,15 +58,17 @@ const Protfolio = () => {
         </div>
         <div className="container">
           <div className="protfolio__allImg">
-            <div className="protfolio">
+            {allPortfolio?.map((item)=>(
+              <div className="protfolio" key={item.id}>
               <picture>
-                <img src={protfolio1} alt={protfolio1} />
+                <img src={item.img} alt={item.img} />
               </picture>
               <div className="protfolio__allImg__profile">
                 <h4 className="profile__title">Graphic Design</h4>
                 <a href="#" className="profile__btn">See Details <span><FaArrowRightLong/></span></a>
               </div>
             </div>
+            ))}
           </div>
         </div>
       </div>

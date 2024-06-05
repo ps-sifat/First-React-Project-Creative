@@ -38,6 +38,8 @@
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
 }
 
 .protfolio {
@@ -46,6 +48,11 @@
     position: relative;
     border-radius: 10px;
     overflow: hidden;
+    transition: .4s all linear;
+}
+
+.protfolio:hover {
+    box-shadow: rgba(37, 22, 121, 0.15) 0px 48px 100px 0px;
 }
 
 .protfolio__allImg__profile {
