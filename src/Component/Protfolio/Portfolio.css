@@ -34,7 +34,7 @@
     margin: 0 auto;
 }
 
-.protfolio__allImg {
+.protfolioBottom {
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -42,7 +42,7 @@
     row-gap: 30px;
 }
 
-.protfolio {
+.protfolooCard {
     max-width: 270px;
     height: 319px;
     position: relative;
@@ -51,13 +51,13 @@
     transition: .4s all linear;
 }
 
-.protfolio:hover {
+.protfolooCard:hover {
     box-shadow: rgba(37, 22, 121, 0.15) 0px 48px 100px 0px;
 }
 
-.protfolio__allImg__profile {
+.protfolioCardOverlay {
     position: absolute;
-    bottom: -100%;
+    bottom: 20px;
     left: 20px;
     border-radius: 10px;
     height: 113px;
@@ -67,7 +67,7 @@
     transition: .4s all linear;
 }
 
-.profile__title {
+.protfolioCardOverlay__header {
     font-size: 20px;
     font-weight: 600;
     font-family: var(--inter);
@@ -75,15 +75,11 @@
     color: #fff;
 }
 
-.profile__btn {
+.protfolioCardOverlay__link {
     font-size: 16px;
     font-weight: 400;
     font-family: var(--inter);
     line-height: 27px;
     color: #fff;
     margin-top: 10px;
-}
-
-.protfolio:hover .protfolio__allImg__profile {
-    bottom: 20px;
 }
