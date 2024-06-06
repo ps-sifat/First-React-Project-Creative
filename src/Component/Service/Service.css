@@ -49,6 +49,13 @@
     border-radius: 10px;
     line-height: 37px;
     margin: 0;
+    background: transparent;
+    transition: .4s;
+}
+
+.service__box__icon:hover {
+    background: var(--main_blue_color);
+    color: #fff;
 }
 
 .service__box__heding {

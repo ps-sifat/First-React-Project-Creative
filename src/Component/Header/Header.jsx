@@ -23,7 +23,7 @@ const Header = () => {
             </ul>
           </div>
           <div className="navBtn">
-            <a className="btn" href="#">
+            <a className="N_btn" href="#">
               Contact us
             </a>
           </div>
