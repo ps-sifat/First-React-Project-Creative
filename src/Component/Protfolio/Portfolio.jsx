@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-key */
 import React, { useState } from "react";
 import "./Portfolio.css";
-import Overlay from "../../CommonComponent/Overlay";
+
 // image
 import protfolio1 from "../../assets/protfolio__1.png";
 import protfolio2 from "../../assets/protfolio__2.png";
@@ -13,6 +13,9 @@ import protfolio7 from "../../assets/protfolio__7.png";
 import protfolio8 from "../../assets/protfolio__8.png";
 // icon
 import { FaArrowRightLong } from "react-icons/fa6";
+
+import Overlay from "../../CommonComponent/Overlay";
+
 const Protfolio = () => {
   const allPortfolio = [
     {

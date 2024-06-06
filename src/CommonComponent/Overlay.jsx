@@ -1,6 +1,8 @@
-import React from "react";
+// import React from "react";
+import React, { useState } from "react";
 
 const Overlay = ({ item }) => {
+  console.log(item);
   const [popUpOverlay, setpopUpOverlay] = useState(false);
 
   return (
@@ -13,6 +15,9 @@ const Overlay = ({ item }) => {
         {popUpOverlay && (
           <div className="protfolioCardOverlay">
             <p className="protfolioCardOverlay__header">{item.title}</p>
+            <a className="protfolioCardOverlay__link" href="#">
+              {item.discrip} <span>{item.icon}</span>
+            </a>
           </div>
         )}
       </div>
