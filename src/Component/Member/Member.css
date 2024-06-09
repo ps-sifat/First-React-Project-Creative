@@ -30,5 +30,53 @@
     opacity: 70%;
     max-width: 542px;
     margin: 0 auto;
+}
 
+.memberWarrper {
+    display: flex;
+    column-gap: 30px;
+    margin-top: 50px;
+}
+
+.member {
+    max-width: 370px;
+    height: 444px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.memberOverlay {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 34px;
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, transparent 70%, rgba(89, 86, 232, 1) 100%);
+    transition: all linear .4s;
+}
+
+.memberOverlay__title {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--inter);
+    line-height: 27px;
+    color: #fff;
+}
+
+.memberOverlay__details {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--inter);
+    line-height: 27px;
+    color: #fff;
+}
+
+.member:hover .memberOverlay {
+    bottom: 0;
 }
