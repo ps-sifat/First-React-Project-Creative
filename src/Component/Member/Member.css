@@ -1,0 +1,34 @@
+:root {
+    --main_blue_color: #5956E8;
+    --primary_text_color: #181818;
+    --inter: "Inter", sans-serif;
+}
+
+/* =============================== */
+
+#memberPart {
+    padding-top: 100px;
+}
+
+.memberPart__title {
+    text-align: center;
+}
+
+.memberPart__header {
+    font-size: 40px;
+    font-family: var(--inter);
+    font-weight: 700;
+    color: var(--primary_text_color);
+    margin-bottom: 20px;
+}
+
+.memberPart__ditails {
+    font-size: 16px;
+    font-family: var(--inter);
+    font-weight: 400;
+    color: var(--primary_text_color);
+    opacity: 70%;
+    max-width: 542px;
+    margin: 0 auto;
+
+}

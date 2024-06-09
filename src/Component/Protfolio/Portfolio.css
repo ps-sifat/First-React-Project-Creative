@@ -1,14 +1,5 @@
-:root {
-    --main_blue_color: #5956E8;
-    --primary_text_color: #181818;
-    --inter: "Inter", sans-serif;
-}
-
-/* =============================== */
-
 .protfolioPart {
     padding-top: 100px;
-    padding-bottom: 100px;
     background-color: #E5E5E5;
 }
 
