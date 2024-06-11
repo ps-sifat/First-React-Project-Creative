@@ -1,0 +1,29 @@
+:root {
+    --main_blue_color: #5956E8;
+    --primary_text_color: #181818;
+    --inter: "Inter", sans-serif;
+}
+
+
+
+#customerPart {
+    padding-top: 142px;
+}
+
+.customerPart__header {
+    font-size: 40px;
+    font-family: var(--inter);
+    font-weight: 700;
+    color: var(--primary_text_color);
+    max-width: 603px;
+}
+
+.customerPart__details {
+    font-size: 16px;
+    line-height: 27px;
+    font-family: var(--inter);
+    font-weight: 400;
+    color: var(--primary_text_color);
+    max-width: 542px;
+    margin-top: 20px;
+}
