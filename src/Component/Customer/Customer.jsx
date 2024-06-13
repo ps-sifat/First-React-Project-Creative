@@ -1,5 +1,6 @@
 import React from "react";
 import "./Customer.css";
+import clintImg1 from "../../assets/customer.png";
 const Customer = () => {
   return (
     <>
@@ -15,7 +16,11 @@ const Customer = () => {
             </div>
           </div>
           <div className="customer__allCard">
-            <div className="customerCard">asg</div>
+            <div className="customerCard">
+              <picture>
+                <img src={clintImg1} alt={clintImg1} />
+              </picture>
+            </div>
           </div>
         </div>
       </div>
