@@ -52,4 +52,8 @@ span {
     --inter: "Inter", sans-serif;
 }
 
+body {
+    background-color: #E5E5E5;
+}
+
 /* =========== common css ========== */

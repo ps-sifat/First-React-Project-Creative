@@ -27,3 +27,58 @@
     max-width: 542px;
     margin-top: 20px;
 }
+
+.customer__allCard {
+    margin-top: 50px;
+    display: flex;
+    column-gap: 30px;
+
+}
+
+.customerCard {
+    max-width: 370px;
+    border-radius: 10px;
+    padding: 48px;
+    background-color: #ffffff;
+}
+
+
+.customer__icon {
+    margin-top: 30px;
+    color: #FBBF25;
+    font-size: 20px;
+    display: flex;
+    column-gap: 7px;
+    font-weight: bold;
+}
+
+.customer__details {
+    margin-top: 20px;
+    max-width: 274px;
+    font-size: 16px;
+    font-family: var(--inter);
+    font-weight: 400;
+    color: var(--primary_text_color);
+    line-height: 27px;
+    opacity: 0.7;
+}
+
+.customer__clint {
+    margin-top: 15px;
+}
+
+.customer__clintName {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--inter);
+    color: var(--primary_text_color);
+    line-height: 27px;
+}
+
+.customer__clintTitle {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--inter);
+    color: #5D5D5D;
+    line-height: 27px;
+}
