@@ -5,6 +5,7 @@ import Service from "./Component/Service/Service";
 import Protfolio from "./Component/Protfolio/Portfolio";
 import Member from "./Component/Member/Member";
 import Customer from "./Component/Customer/Customer";
+import News from "./Component/News/News";
 const App = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const App = () => {
       <Protfolio />
       <Member />
       <Customer />
+      <News />
     </div>
   );
 };
