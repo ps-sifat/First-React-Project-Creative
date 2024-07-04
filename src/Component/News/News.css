@@ -1,13 +1,5 @@
-:root {
-    --main_blue_color: #5956E8;
-    --primary_text_color: #181818;
-    --inter: "Inter", sans-serif;
-}
-
-
-
 #newsPart {
-    padding-top: 142px;
+    padding: 142px 100px;
 }
 
 .newsPart__title {
